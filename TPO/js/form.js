@@ -4,7 +4,8 @@
     const username= document.getElementById('username');
     const email= document.getElementById('email');
     const password= document.getElementById('password');
-
+    
+   
     form.addEventListener('submit',(e) => {
         e.preventDefault();
 
@@ -34,14 +35,16 @@
         } else{
             setSuccessFor(password);
         }
-    
+      
+
+        
     
     }
 
 
     function  setErrorFor(input,message){
         const formControl = input.parentElement;
-        console.log(formControl, input.id);
+       
         const small = formControl.querySelector(`#${input.id}_small`);
 
         small.innerText = message;

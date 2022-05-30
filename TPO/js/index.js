@@ -3,7 +3,7 @@ var header=  document.getElementById("idheader")
 var cad = `
 <div class="header-container">
 
-<img class="logo" src="../img/Cake-Chocolate-icon.png" sizes="5x5">
+<img class="logo" src="./img/Cake-Chocolate-icon.png" sizes="5x5">
 <h1 class="marca"><b>NoheliasGourmet</b></h1>
 
 <nav class="nav-conteiner">
