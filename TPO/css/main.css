@@ -253,6 +253,7 @@ menu ul{
 menu{
     margin-top: 70px;
     flex-direction: column;
+    margin-right: 40px;
 
 }
 
